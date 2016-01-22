@@ -1,13 +1,13 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-var Hello = React.createClass({
+var App = React.createClass({
   render: function() {
     return <h1 className="red">
-      Hello!
+      Hello, World!
     </h1>
   }
 });
 
-var element = React.createElement(Hello, {});
+var element = React.createElement(App, {});
 ReactDOM.render(element, document.querySelector('.container'));
